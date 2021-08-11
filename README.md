@@ -13,5 +13,9 @@ This does NOT do anything else yet - such as getting a token for a new session, 
 
 1. Make sure you have `pip install`ed all the dependencies
 2. Replace `client_id`, `client_secret`, and `redirect_uri` with your values
-3. Run the Python file to start the server
-4. In a browser, go to (by default) http://localhost:5000/auth
+3. Replace the `SCIMPayload` values to your own test account
+4. Run the Python file to start the server
+5. In a browser, go to (by default) http://localhost:5000/auth
+
+## NOTE
+When you successfully run the file, it will enable SCIM provisioning on your account. Go to Account Settings > Security to deactivate that as desired.
